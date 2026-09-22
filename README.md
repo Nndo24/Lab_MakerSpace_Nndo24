@@ -1,7 +1,7 @@
 # Campus MakerSpace Checkout System
 
 **Module:** Introduction to Programming and Databases – BSc (Hons) Software Engineering
-**Author:** Nwando Ukoh (GitHub: Nndo24)
+**Name:** Nwando Ukoh (GitHub: Nndo24)
 
 Python CLI Application with Menu Interface for Makerspace of Students. Operators may perform such tasks as adding new users or devices to the database, issuing devices, returning them, searching information from database and generating reports. Everything is stored in SQLite database `makerspace.db`.
 
@@ -70,7 +70,7 @@ duplicated in the loans table.
 
 ## Generative AI disclosure
 
-I used **[Gemini]** to help [assist me with the debug]. I reviewed, and tested all of the code.
+I used Gemini to help assist me with the debugging. I reviewed, and tested all of the code.
 
 ## References
 
