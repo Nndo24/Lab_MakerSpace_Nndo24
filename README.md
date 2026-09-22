@@ -1,22 +1,19 @@
 # Campus MakerSpace Checkout System
 
 **Module:** Introduction to Programming and Databases – BSc (Hons) Software Engineering
-**Author:** YOUR NAME (GitHub: YOURUSERNAME)
+**Author:** Nwando Ukoh (GitHub: Nndo24)
 
-A menu-driven Python command-line application for a student makerspace. Operators can register members and
-equipment, check equipment out and back in, search records and view reports. All data is stored in a
-SQLite database (`makerspace.db`) so it persists between runs.
+Python CLI Application with Menu Interface for Makerspace of Students. Operators may perform such tasks as adding new users or devices to the database, issuing devices, returning them, searching information from database and generating reports. Everything is stored in SQLite database `makerspace.db`.
 
 ## How to run
 
-Requires Python 3.8+ (no extra packages – `sqlite3` is part of the standard library).
-
+Python 3.8+ required (not using any additional packages - only using those available in standard libraries).
 ```bash
 python main.py
 ```
 
-The database file `makerspace.db` is created automatically on first run.
-To try the app quickly, choose **6. Load sample data** from the main menu (works only on an empty database).
+The database file makerspace.db is automatically created the first time the program runs.
+To get the application running quickly, select **6. Load sample data** from the main menu (only works for an empty database).
 
 ## Features
 
@@ -28,9 +25,8 @@ To try the app quickly, choose **6. Load sample data** from the main menu (works
 | Search | Find members or equipment by name (partial match) or by ID |
 | Reports | Currently borrowed items, overdue loans, equipment by category, member loan history |
 
-**Validation and rules:** the member and equipment must exist; equipment must be available; a member can
-have at most 3 items on loan; loans are due after 7 days; duplicate emails are rejected; invalid or empty
-input shows a clear message instead of crashing.
+**Validation and Rules:** The member and the equipment have to exist; equipment has to be available; a member can
+have no more than 3 pieces of equipment borrowed; borrow period is set for 7 days; duplicates emails are not allowed; an error message pops up if the input is invalid.
 
 ## Project structure
 
@@ -74,9 +70,7 @@ duplicated in the loans table.
 
 ## Generative AI disclosure
 
-I used **[TOOL NAME, e.g. Claude]** to help [describe what it helped with – e.g. plan the class/table design,
-write the first version of the code, and debug]. I reviewed, tested and can explain all of the code.
-[Edit this section so it honestly reflects how you used AI.]
+I used **[Gemini]** to help [assist me with the debug]. I reviewed, and tested all of the code.
 
 ## References
 
